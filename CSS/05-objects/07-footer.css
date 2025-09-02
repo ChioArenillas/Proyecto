@@ -1,0 +1,117 @@
+
+.footer{
+    display: grid;
+    grid-template-columns: 1.75fr 1fr 1.5fr 1.25fr; 
+    block-size: 450px;
+    padding-top: 100px;
+    
+    & .logo{
+        padding-bottom: 30px;
+    }
+    & .nav{
+        & .title{
+            color: #ffff;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 20px;
+
+            &::after{
+                content: "";
+                display: inline-block;
+                height: 1px;
+                width: 28px;
+                background-color: #e0011a;
+                vertical-align: middle;
+                margin-top: -1px;
+                margin-left: 16px;
+            }
+        }
+        & .subtitle{
+            color:#A8A8A8;
+            font-size: 16px;
+            padding-bottom: 20px;
+            font-family: serif;
+        }
+        & .newsletter-subtitle{
+            display: flex;
+            fill: #A8A8A8;
+            justify-content: space-between; 
+            margin-bottom: 1px; 
+            border-radius: 0 0 2px 0;  
+        }
+        & .newsletter-subtitle:hover{
+            color:#ffff;
+            fill: #ffff;
+            cursor: pointer;  
+        }
+        & .subtitle-text{
+            color:#A8A8A8;
+            font-size: 14px;
+            padding-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        & a:hover{
+            color:#ffff;
+            fill: #ffff;
+            cursor: pointer;    
+        }
+        & .socials {
+            display: flex;
+            fill: #ffff;
+            align-items: center;
+            gap: 5px;
+            margin: 5px;
+    
+            & a{
+                height: 22px;
+                width: 22px;
+            }
+            & .twitter{
+                justify-content: center;
+                align-items: center;
+                background-color: #1da1f2;
+                padding: 10px;
+                border-radius: 50%;
+                display: flex;
+            }
+            & .facebook{
+                justify-content: center;
+                align-items: center;
+                background-color: #3a559f;
+                padding: 10px;
+                border-radius: 50%;
+                display: flex;
+            }
+            & .instagram{
+                justify-content: center;
+                align-items: center;
+                background-color: #ce2e92;
+                padding: 10px;
+                border-radius: 50%;
+                display: flex;
+            }
+            & .youtube{
+                justify-content: center;
+                align-items: center;
+                background-color: #e0011a;
+                padding: 10px;
+                border-radius: 50%;
+                display: flex;
+            }
+            & .twitter:hover{
+                background-color: #0c6da9;
+            }
+            & .facebook:hover{
+                background-color: #26408a;
+            }
+             .instagram:hover{
+                background-color: #ba157b;
+            }
+            & .youtube:hover{
+                background-color: #b00014;
+            }
+        }
+    }
+}
+

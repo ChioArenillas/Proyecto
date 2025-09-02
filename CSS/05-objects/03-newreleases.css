@@ -1,0 +1,93 @@
+
+/* SAMURAY */
+
+.new-releases-background{
+    background-color: #ffff;
+}
+.new-releases{
+    display: flex;
+    padding-top: 80px;
+
+    .backround-image{
+        position: relative;
+        margin-left: -10%;
+        width: 100%;
+        height: 480px;
+    }
+    .text-info{
+        position: absolute;
+        padding-left: 40%;
+        padding-bottom: 350px;
+        padding-top: 70px;
+        padding-right: 200px;
+
+        .top-title::before {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 48px;
+            background: #e0011a;
+            margin-bottom: 30px;
+        } 
+        .top-title{
+            color: #737373;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .title{
+            color: #1a1d24;
+            font-size: 37px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .subtitle{
+            color: #1a1d24;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 20px;
+        }
+        .info{
+            color: #737373;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .buttons{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-weight: bold;
+
+            .subtitle2 {
+            display: flex;
+            color: #e0011a;
+            fill: #e0011a;
+            align-items: center;
+            gap: 10px;
+            }
+            .subtitle3 {
+                display: flex;
+                color: #1a1d24;
+                fill: #1a1d24;
+                align-items: center;
+                gap: 10px;
+            }
+            .subtitle2:hover {
+                color: #7b000e;
+                fill: #7b000e;
+            }
+            .subtitle3:hover {
+                color: #7b000e;
+                fill: #7b000e;
+            }
+        }
+    }
+}
